@@ -1,0 +1,26 @@
+# pyproject.toml
+
+[tool.poetry]
+name = "redis-vss-py"
+version = "0.0.1"
+description = "Redis VSS Presentation"
+authors = ["Brian Sam-Bodden <bsb@redis.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.13"
+redis = "^4.5.5"
+python-dotenv = "^1.0.0"
+rise = "^5.7.1"
+sentence-transformers = "^2.2.2"
+matplotlib = "^3.7.1"
+ipympl = "^0.9.3"
+hide-code = "^0.7.0"
+traitlets = "5.9.0"
+redis-om = "^0.2.1"
+pandas = "^2.1.1"
+tqdm = "^4.66.1"
+gitpython = "^3.1.37"
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.0.0"
+
